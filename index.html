@@ -1,0 +1,65 @@
+<head>
+	
+
+	
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Ella-Aurora</title>
+
+<link rel="stylesheet" type="text/css" href="Assets/Css/Css.css">
+
+<script>
+	function replace( hide, show ) {
+  document.getElementById(hide).style.display="none";
+  document.getElementById(show).style.display="block";
+}
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
+
+
+
+<link rel="shortcut icon" href="Assets/favicon.png"/>
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="Ella Aurora"/>
+<meta name="keywords" content="Ella Aurora, Light"/>
+<meta property="og:image" content="Images/Ella-Aurora-LightOff.jpg" />
+
+
+
+
+</head>
+
+
+
+
+
+
+<div class="image-wrapper">
+  <img id="image1" src="Images/Ella-Aurora-LightOff.jpg" alt="Off" onclick="swapImages()">
+  <img id="image2" class="hidden" src="Images/Ella-Aurora-LightOn.jpg" alt="On" onclick="swapImages()">
+</div>
+
+<div class="bodytextcenter">
+  <p><em>cross,</em> 2025 &nbsp;&nbsp;&nbsp;
+    <a href="mailto:info@ella-aurora.com">info@ella-aurora.com</a>
+  </p>
+</div>
+
+
+
+
+<script>
+  function swapImages() {
+    const img1 = document.getElementById('image1');
+    const img2 = document.getElementById('image2');
+    img1.classList.toggle('hidden');
+    img2.classList.toggle('hidden');
+  }
+</script>
+

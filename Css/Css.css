@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 65vw;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-wrapper img {
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.bodytextcenter {
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  width: 100%;
+  font-family: "Times New Roman", serif;
+  font-size: 14px;
+}
+
+.bodytextcenter a {
+  text-decoration: none;
+  color: inherit;
+}
