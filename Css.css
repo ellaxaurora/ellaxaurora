@@ -5,6 +5,8 @@ body {
   justify-content: center;
   align-items: center;
   background: #fff;
+  overflow: hidden;
+  overscroll-behavior: none;
 }
 
 .image-wrapper {
@@ -30,7 +32,7 @@ body {
 
 .bodytextcenter {
   position: absolute;
-  bottom: 20px;
+  bottom: 0px;
   text-align: center;
   width: 100%;
   font-family: "Times New Roman", serif;
