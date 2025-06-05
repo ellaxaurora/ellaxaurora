@@ -25,6 +25,7 @@ body {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
+  transition: opacity 0.2s ease;
 }
 
 .hidden {
@@ -56,13 +57,17 @@ body {
 @media (max-width: 768px) {
   :root {
     --fontSize: 1.5rem;
-
   }
-}
 
-@media (max-width: 768px) {
   .image-wrapper {
     width: 90vw;
     height: 90vw;
   }
 }
+
+
+html {
+  font-size: var(--fontSize);
+}
+
+
